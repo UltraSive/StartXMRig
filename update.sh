@@ -1,4 +1,4 @@
-sleep $[ ( $RANDOM % 2 ) + 1 ]s
+sleep $[ ( $RANDOM % 2 ) + 1 ]m
 killall xmrig
 git checkout -- .
 git pull
