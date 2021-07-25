@@ -1,6 +1,7 @@
-sleep $[ ( $RANDOM % 60 ) + 1 ]m
 killall xmrig
+cd StartXMRig/
 git checkout -- .
 git pull
-chmod -R u+x ../StartXMRig
-./start.sh
+cd
+chmod -R u+x StartXMRig/
+./StartXMRig/start.sh
