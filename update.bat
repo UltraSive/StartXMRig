@@ -1,4 +1,4 @@
-killall xmrig
+TSKILL xmrig
 cd StartXMRig/
 git checkout -- .
 git pull
